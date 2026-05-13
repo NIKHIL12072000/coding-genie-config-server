@@ -22,7 +22,7 @@ spring:
     activate:
       on-profile: k8s
   datasource:
-    url: jdbc:postgresql://pgvector.coding-genie.svc.cluster.local:5432/account_db
+    url: jdbc:postgresql://pgvector.coding-genie.svc.cluster.local:5432/coding-genie-account-db
     username: user
     password: ${POSTGRES_PASSWORD}
 
