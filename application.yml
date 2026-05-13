@@ -65,6 +65,11 @@ spring:
   cloud:
     discovery:
       enabled: false
+  kafka:
+    bootstrap-servers: kafka.coding-genie.svc.cluster.local:9092
+  cloud:
+    discovery:
+      enabled: false
 
 eureka:
   client:
