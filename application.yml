@@ -7,7 +7,6 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: false
-
   kafka:
     bootstrap-servers: localhost:29092
     producer:
@@ -62,9 +61,6 @@ spring:
   config:
     activate:
       on-profile: k8s
-  cloud:
-    discovery:
-      enabled: false
   kafka:
     bootstrap-servers: kafka.coding-genie.svc.cluster.local:9092
   cloud:
