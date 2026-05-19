@@ -16,7 +16,7 @@ spring:
       base-url: https://openrouter.ai/api/v1
       chat:
         options:
-          model: google/gemini-3-flash-preview
+          model: openai/gpt-oss-120b:free
           temperature: 0.2
       embedding:
         options:
