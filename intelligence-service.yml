@@ -16,7 +16,7 @@ spring:
       base-url: https://models.inference.ai.azure.com
     chat:
       options:
-        model: nvidia/nemotron-3-super-120b-a12b:free
+        model: openai/gpt-4.1-mini
         temperature: 0.0
       embedding:
         options:
@@ -38,4 +38,4 @@ spring:
       api-key: ${AI_API_KEY}
     chat:
         options:
-          model: nvidia/nemotron-3-super-120b-a12b:free
+          model: openai/gpt-4.1-mini
