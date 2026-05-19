@@ -13,7 +13,7 @@ spring:
     model.chat: openai
     openai:
       api-key: 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
-      base-url: https://openrouter.ai/api
+      base-url: https://openrouter.ai/api/v1
       chat:
         options:
           model: google/gemini-3-flash-preview
@@ -33,7 +33,7 @@ spring:
     username: intelligence_user
     password: ${DB_PASSWORD}
 
-ai:
+  ai:
     openai:
       api-key: ${AI_API_KEY}
     chat:
