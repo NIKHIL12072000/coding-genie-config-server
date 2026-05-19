@@ -16,7 +16,7 @@ spring:
       base-url: https://openrouter.ai/api/v1
       chat:
         options:
-          model: google/gemini-2.5-flash:free
+          model: deepseek/deepseek-v4-flash:free
           temperature: 0.0
       embedding:
         options:
@@ -38,4 +38,4 @@ spring:
       api-key: ${AI_API_KEY}
     chat:
         options:
-          model: google/gemini-2.5-flash:free
+          model: deepseek/deepseek-v4-flash:free
