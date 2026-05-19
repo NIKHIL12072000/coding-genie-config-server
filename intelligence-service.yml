@@ -12,11 +12,11 @@ spring:
   ai:
     model.chat: openai
     openai:
-      api-key: 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
-      base-url: https://models.inference.ai.azure.com
+      api-key: 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
+      base-url: https://openrouter.ai/api/v1
     chat:
       options:
-        model: openai/gpt-4.1-mini
+        model: nvidia/nemotron-3-super-120b-a12b:free
         temperature: 0.0
       embedding:
         options:
@@ -38,4 +38,4 @@ spring:
       api-key: ${AI_API_KEY}
     chat:
         options:
-          model: openai/gpt-4.1-mini
+          model: nvidia/nemotron-3-super-120b-a12b:free
