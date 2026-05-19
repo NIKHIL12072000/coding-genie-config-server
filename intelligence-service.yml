@@ -12,12 +12,12 @@ spring:
   ai:
     model.chat: openai
     openai:
-      api-key: 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
+      api-key: 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
       base-url: https://openrouter.ai/api/v1
       chat:
         options:
           model: openai/gpt-oss-120b:free
-          temperature: 0.2
+          temperature: 0.0
       embedding:
         options:
           model: qwen/qwen3-embedding-8b
@@ -38,4 +38,4 @@ spring:
       api-key: ${AI_API_KEY}
     chat:
         options:
-          model: google/gemini-3-flash-preview
+          model: openai/gpt-oss-120b:free
