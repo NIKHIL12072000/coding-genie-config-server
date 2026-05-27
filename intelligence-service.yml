@@ -18,9 +18,6 @@ spring:
       options:
         model: nvidia/nemotron-3-super-120b-a12b:free
         temperature: 0.0
-      embedding:
-        options:
-          model: qwen/qwen3-embedding-8b
 
 ---
 
