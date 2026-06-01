@@ -12,11 +12,11 @@ spring:
   ai:
     model.chat: openai
     openai:
-      api-key: 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
-      base-url: https://openrouter.ai/api/v1
+      api-key: sk-of-FLfXKVValUyafjyhSkOvwkasPYbwjQapTbrCjGVnBBRtWrIxwmbHDyQqihNRvyzN
+      base-url: https://api.ofox.ai/v1
     chat:
       options:
-        model: qwen/qwen3-coder:free
+        model: z-ai/glm-4.7-flash:free
         temperature: 0.0
 
 ---
@@ -33,7 +33,7 @@ spring:
   ai:
     openai:
       api-key: ${AI_API_KEY}
-      base-url: https://openrouter.ai/api/v1
+      base-url: https://api.ofox.ai/v1
     chat:
       options:
-        model: qwen/qwen3-coder:free
+        model: z-ai/glm-4.7-flash:free
