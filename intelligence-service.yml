@@ -16,7 +16,7 @@ spring:
       base-url: https://openrouter.ai/api/v1
     chat:
       options:
-        model: nvidia/nemotron-3-super-120b-a12b:free
+        model: qwen/qwen3-coder:free
         temperature: 0.0
 
 ---
@@ -36,4 +36,4 @@ spring:
       base-url: https://openrouter.ai/api/v1
     chat:
       options:
-        model: nvidia/nemotron-3-super-120b-a12b:free
+        model: qwen/qwen3-coder:free
